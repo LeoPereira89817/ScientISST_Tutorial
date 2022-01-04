@@ -45,22 +45,24 @@ The ScientISST - Sense development board is built upon the ESP32-WROOM-32, a pow
 <img src="https://raw.githubusercontent.com/LeoPereira89817/scientisst-sense-arduino-ide-tutorial/main/images/file_preference_marked.png" width="200" style="display:block; margin:auto"/>
 
 <br>
+
 2. Enter `https://dl.espressif.com/dl/package_esp32_index.json`
-[[3]](#reference_3) into the “Additional Board Manager URLs” field (1) in the “Preferences” window as shown in the figure below. Then, click the “OK” button (2):<br>
+[[3]](#reference_3) into the "Additional Board Manager URLs" field (1) in the "Preferences" window as shown in the figure below. Then, click the "OK" button (2):<br>
 
 <img src="https://raw.githubusercontent.com/LeoPereira89817/scientisst-sense-arduino-ide-tutorial/main/images/preferences_marked.png" width="600" style="display:block; margin:auto"/>
 
 <br>
 
 > **Note:** 
-If you already have the URL of another board in the “Additional Board Manager URLs” field, you can separate the URLs with a comma as displayed in the figure above.
+If you already have the URL of another board in the "Additional Board Manager URLs" field, you can separate the URLs with a comma as displayed in the figure above.
 
 3. Open the Boards Manager. Go to *Tools > Board > Boards Manager*<br>
 
 <img src="https://raw.githubusercontent.com/LeoPereira89817/scientisst-sense-arduino-ide-tutorial/main/images/tools_boards_marked.png" width="600" style="display:block; margin:auto"/>
 
 <br>
-4. Search for ESP32 and press the “Install” button for the “**esp32** by **Espressif Systems**”:<br>
+
+4. Search for ESP32 and press the "Install" button for the "**esp32** by **Espressif Systems**":<br>
 
 <img src="https://raw.githubusercontent.com/LeoPereira89817/scientisst-sense-arduino-ide-tutorial/main/images/esp32_install_marked.png" width="600" style="display:block; margin:auto"/>
 
@@ -122,7 +124,7 @@ If the previous steps were done correctly, the white LED should have stopped bli
 At this point, the ScientISST - Sense development board is now on BOOT mode and is ready to have the sketch uploaded to it.
 
 
-5. Upload the sketch to your board by clicking the “Upload” button in the Arduino IDE:
+5. Upload the sketch to your board by clicking the "Upload" button in the Arduino IDE:
 
 <img src="https://raw.githubusercontent.com/LeoPereira89817/scientisst-sense-arduino-ide-tutorial/main/images/upload.png" width="300" style="display:block; margin:auto"/>
 
